@@ -1,0 +1,24 @@
+{
+  "name": "typegoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^12.4.0",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^8.3.3",
+    "nanoid": "^5.0.7"
+  }
+}
